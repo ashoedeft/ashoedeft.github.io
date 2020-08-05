@@ -38,10 +38,10 @@
         //Uncommenting lines 41-44 will provide the behavior of replacing the task report with the task itself. 
         //On completion of the task it will re-display the task report.
 
-        // var reportInsertDiv = document.getElementById('reportInsertPoint');
-        // var reportChild = document.getElementById('reportInsertPoint').children[0];
-        // var newReport = document.createElement("p");
-        // reportInsertDiv.replaceChild(newReport, reportChild);
+        var reportInsertDiv = document.getElementById('reportInsertPoint');
+        var reportChild = document.getElementById('reportInsertPoint').children[0];
+        var newReport = document.createElement("p");
+        reportInsertDiv.replaceChild(newReport, reportChild);
 
         var taskInsertDiv = document.getElementById('taskInsertPoint');
         var taskChild = document.getElementById('taskInsertPoint').children[0];
